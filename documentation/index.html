@@ -1,0 +1,288 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Web Charts N  Maps</title>
+	
+	<meta name="description" content="Create Interactive Maps and place them anywhere on your website.">
+	<meta name="author" content="CHARTS N MAPS">
+	
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#install">Install</a></li>
+			<li><a href="#plugin_overview">Plugin Overview</a></li>
+			<li><a href="#default_settings">Default Settings</a></li>
+			<li><a href="#adding_and_editing_maps">Adding and Editing Maps</a></li>
+			<li><a href="#display_the_maps">Display the Maps</a></li>
+			<li><a href="#faq">FAQ</a></li>
+			<li><a href="#demo">Demo</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Carlos Moreira 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Charts N Maps</h1><hr><ul>
+<li><a href=""></a></li></ul><p>Create Interactive Maps and place them anywhere on your website.</p></section><section id="install">
+	<h3>Install</h3><hr class="notop">
+<p>
+	Installing Charts N Maps is as simple as installing any other Wordpress Plugin:</p>
+<ol>
+	<li>
+		Upload the &#39;interactive-world-maps&#39; folder to your WordPress plugin directory ( /wp-content/plugins/ )</li>
+	<li>
+		Activate the plugin via your WordPress admin panel</li>
+	<li>
+		A new options tab with the name &#39;i World Map&#39; is created in WordPress admin where you can configure and create your maps!</li>
+</ol>
+</section>
+<section id="plugin_overview">
+	<h3>Plugin Overview</h3><hr class="notop">
+<p>
+	<strong>You will be able to show hundreds of different kinds of maps, including:</strong></p>
+<ul>
+	<li>
+		<span class="description"><span class="description">A map of the entire world.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A continent or a sub-continent.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A country.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A country divided by its regions.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A state in the United States.</span></span></li>
+	<li>
+		<span class="description"><span class="description">The United Stated divided by metropolitan areas.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A state in the United States divided by metropolitan areas.</span></span></li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<strong><span class="description">You can add active colored regions to the map</span><span class="description"><span class="description">, and display them in 2 different ways:</span></span></strong></p>
+<ul>
+	<li>
+		<span class="description"><strong>As Regions </strong>- It will color the whole region, for example a continent, a subcontinent, a country, a country province, or a US state. </span></li>
+	<li>
+		<span class="description"><strong>As Markers </strong>-It will display a colored bubble in the chosen regions, that can be a city, a state or a country.</span></li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>You can add interactivity to the active regions:</strong></p>
+<ul>
+	<li>
+		<strong>A Tooltip </strong>- A tooltip will be displayed by default on hover with the information you provide.</li>
+	<li>
+		<strong>An Action</strong> - You can set up diferent kinds of action for when the user clicks in an active area. You can make a new URL open, or simply display a message. Advanced users will be able to create their own Javascript functions for customized actions.</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>You will be able to customize the visual of your maps:</strong></p>
+<ul>
+	<li>
+		Background color;</li>
+	<li>
+		Border width and color;</li>
+	<li>
+		Inactive regions color;</li>
+	<li>
+		Individual colors for each active region;</li>
+	<li>
+		Markers size;</li>
+	<li>
+		Width and Height of the map;</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>&nbsp;
+	</p>
+<p>
+	This plugin uses the powerful <a href="https://developers.google.com/chart/interactive/docs/gallery/geochart" target="_blank">Google Geochart API</a>.</p>
+</section>
+<section id="default_settings">
+	<h3>Default Settings</h3><hr class="notop">
+<p>
+	This is the plugin&#39;s Default Settings page</p>
+<p>
+	<img alt="Default Settings" src="assets/images/image_2.png" style="width: 600px; height: 497px;"></p>
+<p>&nbsp;
+	</p>
+<p>
+	These are the settings that the plugin will load, when you choose the map to have the default settings.<br>
+	They are the following:</p>
+<p>
+	<strong>VISUAL SETTINGS</strong></p>
+<p>
+	<strong>Background Color: </strong>The background color for the main area of the chart. Can be either a simple HTML color string, for example: <code>&#39;red&#39;</code> or <code>&#39;#00cc00&#39;. </code>Tip: you can set it to <em>transparent</em> so it doesen&#39;t have any solid background color;</p>
+<p>
+	<strong>Border Color: </strong>The color of the map border, as an HTML color string.</p>
+<p>
+	<strong>Border Width: T</strong>he border width, in pixels. Tip: you can set it to 0 to display no border.</p>
+<p>
+	<strong>Inactive Region Color: </strong>Colors to assign to regions with no associated data. Tip: you can set it to <em>transparent</em> so it doesen&#39;t have any solid background color;</p>
+<p><strong>Marker Size</strong> (px): Number in pixels for the size of the bubbles, when the <em>Markers</em> display mode is chosen.</p>
+<p>
+  <strong>Width (px):</strong> Width of the visualization, in pixels. Will be the default, unless the <code>height</code> option is specified and <code>keepAspectRatio</code> is set to true - in which case the width is calculated accordingly.</p>
+<p>
+	<strong>Height (px): </strong>Height of the visualization, in pixels. Will be the default, unless the <code>width</code> option is specified and <code>keepAspectRatio</code> is set to true - in which case the height is calculated accordingly.</p>
+<p>
+	<strong>Keep Aspect Ratio:</strong> If true, the map will be drawn at the largest size that can fit inside the chart area at its natural aspect ratio. If false, the map will be stretched to the exact size of the chart as specified by the <code>width</code> and <code>height</code> options.</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>MAP SETTINGS</strong></p>
+<p>
+	<strong>Region to Show: </strong><span class="description">The area to display on the map. (Surrounding areas will be displayed as well.) Can be one of the following:<br>
+	</span></p>
+<ul>
+	<li>
+		<span class="description">&#39;world&#39; - A map of the entire world.</span></li>
+	<li>
+		<span class="description"><span class="description">A continent or a sub-continent.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A country.</span></span></li>
+	<li>
+		<span class="description"><span class="description">A state in the United States.</span></span></li>
+</ul>
+<p>
+	This default setting works only to have one of these options selected by default when you are creating a new map. It will not prevail over a different option you might have chosen when creating a map, even if you choose to display the default visual settings.</p>
+<p>
+	<strong>Display Mode:&nbsp; </strong><span class="description">Which type of map this is. The data entered for areas to active must match the value specified. The following values are supported:</span></p>
+<ul>
+	<li>
+		<span class="description"><strong>&#39;Regions&#39; </strong>- This is a region map. It is the best option when you want to make a whole continent, country, province or US metropolitan area interactive.</span></li>
+	<li> <strong>'Markers (Text Location)'</strong> - This is a marker map.   Best option to give interactivity to a city. It will create a colored   bubble on the area specified. You can insert the location where you want   the markers to appear as a text string. It will be a little bit slow   loading the markers, if there are a lot of them, because they need to be   converted to coordinates by the google api.</li>
+	<li> <strong>'Markers (Coordinates)'</strong> - This is the same   as the option before, but the input should be a coordinates value.<strong> It is   much faster</strong>. This is the recomemded option if you're creating a map   with more than 10 markers.</li>
+</ul>
+<p>
+  This default setting works only to have one of these options selected by default when you are creating a new map. It will not prevail over a different option you might have chosen when creating a map, even if you choose to display the default visual settings.</p>
+<p>OTHER SETTINGS
+	</p>
+<p><strong>Responsive (Beta Feature)</strong> - This is a feature still in beta. It will ignore the   width/height settings of the map and ocupy 100% of the available space.   When the window size changes it will try to redraw the map again to fit   the available size. You might experience speed problems if you are using   Coordinates (Text Values) mode.</p>
+<p>
+	<strong>THE PREVIEW</strong></p>
+<p>
+	The Default Settings Page also has a preview map, so you can have an idea on how your maps will look like when using the default settings. It is loaded with some default data just for display only, this data will not take part of your maps.</p>
+</section>
+<section id="adding_and_editing_maps">
+	<h3>Adding and Editing Maps</h3><hr class="notop">
+<p>
+	This is the main screen when adding or editing maps:</p>
+<p>
+	<img alt="" src="assets/images/image_1.png" style="width: 600px; height: 653px;"></p>
+<p>
+	<strong>DETAILS</strong></p>
+<p>
+	<strong>Name:</strong> Name for the map. It will be a reference to you when you manage the maps. It will not be displayed with the map.</p>
+<p>
+	<strong>Description:</strong> It will show when you are managing the maps. It&#39;s only a reference to you, it will not be displayed with the map.</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>VISUAL SETTINGS</strong></p>
+<p>
+	This are the settings that will define how your map will look like. You can choose to use custom settings, or use the defaults. Please refer to the Default Settings menu of the documentation for further information about the option fields.</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>MAP SETTINGS</strong></p>
+<p>
+	Settings to define how your map will display and what kind of interactivity it will have. When chosing an option, a description of it will display. You will need to follow the tips on the description to know wich kind of Information you will have to place in the Interactive Regions entries. You have to be aware that different combinations of displayed regions, will need different kinds of data entry. For example, if you choose to display the region 'world' in 'regions' display mode, and if you insert Address text, it will not work, you will need to change the display mode to markers. If you want to color a continent or subcontinent, you will need to choose the proper region to display, and enter the corresponding data that will show up in the supporting information.</p>
+<p>&nbsp;
+</p>
+<p>
+	<strong>INTERACTIVE REGIONS</strong></p>
+<p>
+	This is where you will insert the data to display. You can insert it one by one, or use the advanced interface to include a CSV text with the data. Follow the instructions displayed when doing so.</p>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 600px; height: 120px;"></p>
+<p>
+	Data you will need to insert:</p>
+<p>
+	<strong>Region Code: </strong>This is the only mandatory field. Depending on your display mode and region to display, the Region Code needed will be different. Information on wich codes or data to insert will display according to your choices.</p>
+<p>
+	<strong>Title: </strong>It will be the line of the tooltip. You can use the name of the Region for example. This was added, to ensure the value is human readable when you have to use ISO codes.</p>
+<p>
+	<strong>Tooltip:</strong> Second line of the tooltip. Complementary Information. Not mandatory.</p>
+<p>
+	<strong>Action Value: </strong>If you chose an action this is the field where you will have to put the value associated with it. For example, if you chose the &#39;Open URL&#39; action, you will need to insert here the URL you want to open. If you choose &#39;Alert Message&#39;, you should insert the message here.</p>
+<p>
+	<strong>Color: </strong>color for the active region.</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>IMPORTANT: REMEMBER TO CLICK &#39;UPDATE&#39; OR &#39;CREATE MAP&#39; AFTER FINISHING FILLING OUT THE FORMS.</strong></p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="display_the_maps">
+	<h3>Display the Maps</h3><hr class="notop">
+<p>
+	There are 2 ways to display the maps:</p>
+<ul>
+	<li>
+		PHP Function: you should add <span id="shc">&lt;?php build_i_world_map(ID); ?&gt;</span> to anywhere on your template, where ID is the identifier of your map. You can get the code on top of the page when editing the map.<br>
+		&nbsp;</li>
+	<li>
+		Shortcode: To display the maps you simple have to place the shortcode associated with it in your post, page or sidebar text widget. For example: <span id="shc">[show-map id=&#39;2&#39;]. </span>You can get the code on top of the page when editing the map or in the &#39;Manage Maps&#39; options page.</li>
+</ul>
+</section>
+<section id="faq">
+	<h3>FAQ</h3><hr class="notop">
+<p><strong>Can I display multiple maps per page?</strong></p>
+<p>Yes you can. </p>
+<p><strong>How do maps display and function in a responsive website?</strong></p>
+<p>The maps are partially responsive. If no   width is specified it will load with the maximum width available in the   container div. For example, it will load and adapt with different sizes   for phones/ipads/laptops. However, after loaded it will not change size   if you resize the window. Since version 1.4 the plugin includes a beta responsive feature. You can go on Default Settings &gt; Other Settings &gt; Responsive Feature. This is a feature still in beta. It will ignore the   width/height settings of the map and ocupy 100% of the available space.   When the window size changes it will try to redraw the map again to fit   the available size. You might experience speed problems if you are using   Coordinates (Text Values) mode.</p>
+<p><strong>The markers load to slow. Anyway I can make them load faster?</strong></p>
+<p>If you're building a map with more than 10 markers, we recomend you to use the Markers - Coordinates mode, since it will save a lot of time, since it doesn't need to convert the text string in coordinates.</p>
+</section>
+<section id="demo">
+	<h3>Demo</h3><hr class="notop">
+<p>
+	Demo is comming soon keep watching this space</p>
+</section>
+
+	</div>
+</body>
+</html>

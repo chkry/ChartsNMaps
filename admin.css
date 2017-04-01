@@ -1,0 +1,455 @@
+/*  Interactive World Maps Plugin Styles 
+	All this styles apply only to the Admin Pages of the plugin.
+	They do not affect the Map Visuals
+*/
+
+
+
+#visualization text {
+	cursor:default;
+	stroke-width:0;
+  cursor: pointer;
+}
+
+#iwm_custom_css, #iwm_custom_js {
+	width:100%;
+	min-height: 100px;
+}
+
+#default-settings-table,#add-table,#name-table,#iwm-custom-css {
+	
+	padding:10px;
+	
+	
+}
+
+#iwm-visit {
+	float:right;
+	padding:20px;
+	font-size: 0.8em;
+}
+
+.iwm_stronger {
+	font-weight: bold;
+}
+
+#iwm-custom-css input[type=text] {
+	width:100px;
+}
+#iwm-custom-css input[type=number] {
+	width:80px;
+}
+
+#iwm-custom-css input#bgimage {
+	width:200px;
+}
+
+#iwm-custom-css { display:none; margin-top:10px;}
+
+
+#default-settings-table-add {
+	
+	padding:10px;
+	margin-top:20px;
+	
+}
+#default-settings-table-add input[type=text], #name-table input[type=text], #name-table textarea {
+	width:100%;
+}
+
+#default-settings-table-add input,
+#name-table input,
+#name-table textarea {
+	margin: 5px 0px 0px 0px;
+}
+
+#default-settings-table-add td,
+#name-table td { padding-top: 10px; }
+
+
+#wp-iwm_hackeditor-wrap { display:none;}
+
+#advanced-table {
+	display:none;
+}
+
+#add-table-advanced {
+	background-color:#FFFFFF;
+	padding:10px;
+	border: 1px solid #DFDFDF;
+	}
+	
+#add-table-advanced textarea {
+	width:100%;
+	height:200px;
+}
+
+#default-settings-table input[type=text],
+#add-table input[type=text] {	
+	width: 100%;
+}
+
+
+#default-settings-table th,#add-table th{
+	font-weight:bolder;
+	text-align:left;	
+	
+}
+
+#add-table td { padding:5px;}
+
+
+#add-table textarea {
+	width:100%;	
+}
+
+#add-table input[type="text"],
+#add-table input[type="button"] {
+	width:100%;
+}
+
+#region { font-size: 0.9em}
+
+
+#visualization-wrap {
+	background-color:#f9f9f9;
+	padding:10px;
+	border: 1px solid #DFDFDF;
+	
+	width:100%;
+}
+
+
+#visualization-wrap-responsive {
+ width:100%;
+ overflow: hidden;
+ display: inline-block;
+ position: relative;
+ list-style: none; 
+
+}
+
+#visualization-wrap-responsive > div > div {
+	overflow:hidden;
+}
+
+#visualization-wrap-responsive:after {
+    padding-top: 61.7%; 
+    display: block;
+    content: '';
+}
+
+#iwm-wrap-preview {
+	
+	 border:1px solid #CCC;
+ padding:20px;
+ max-width:600px;
+
+	
+}
+
+.iwm_preview_help {
+	vertical-align: top;
+}
+
+#iwm-control-box { padding:10px; 
+	vertical-align:middle;
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+-o-user-select: none;
+user-select: none;
+
+}
+#iwm-control-box .fa { cursor:pointer;}
+
+#visualization-wrap-responsive #visualization  {
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    left: 0; 
+
+}
+
+#iwmexpandcss { cursor:pointer; padding: 20px;}
+
+.data-content-table {
+	width:100%;
+	background-color: #FFF;	
+	margin-top:10px;
+}
+
+.data-content-table td {
+    word-wrap: break-word;
+    max-width:200px;
+}
+
+.data-content-table tr:nth-child(even) {
+	background-color: #EEE;
+}
+ 
+.data-content-table tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+#add-table .data-content-table td {
+	padding:0 5px;
+}
+
+#add-table .fa {
+	cursor: pointer;
+	padding:3px;
+	font-size: 1.5em;
+}
+
+
+
+
+#add-table .fa-plus-circle {
+
+	 -ms-transform: rotate(45deg) ; /* IE 9 */
+    -webkit-transform: rotate(45deg) ; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    color:#c0392b;
+    opacity:0.5;
+
+}
+
+#add-table .fa-pencil-square {
+	margin:0 6px 0 3px;
+	opacity: 0.7;
+	color:#008ec2;
+}
+
+#add-table .fa-check-square {
+	color:#27ae60;
+	opacity: 0.8;
+	margin-right:3px;
+	font-size: 2em;
+}
+
+#add-table .fa-undo {
+	color:#CCC;
+	opacity: 0.8;
+}
+
+#add-table .fa:hover {
+
+    opacity:1;
+}
+
+.data-content-table th {
+	text-align:left;
+	padding:10px;
+	text-transform: uppercase;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+
+.deleteplace {
+	cursor:pointer;
+	}
+.editing-map-entry tr {
+	border: 1px solid #F30;	
+	background-color:#0099CC;
+	padding:20px;
+}
+
+.activeb {
+	background-color: #FFFFFF;
+	padding: 10px 10px 1px 10px;
+	color:#000000;
+	cursor:pointer;
+	margin-left:10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #CCC;
+}
+.inactiveb {
+	background-color: #FFFFFF;
+	padding: 10px 10px 1px 10px;
+	border: 1px solid #CCC;	
+	color:#222222;
+	cursor:pointer;
+	margin-left:10px;
+	margin-top:-2px;
+}
+
+#iso-code-msg {
+	padding:10px;
+	margin-bottom:10px;
+	color:#333333;
+	font-style:italic;
+	display:block;
+	
+}
+
+#iwm-api-key-msg {
+	padding:10px;
+	margin-bottom:10px;
+	color:#333333;
+	font-style:italic;
+	display:block;
+}
+
+.iwmsmall {
+	font-size:x-small;
+	color:#666666;
+	
+}
+
+.iwm-small-help {
+	color:#666;
+	font-style:italic;
+	font-size:11px;	
+
+}
+
+.colorsample {
+	width:15px;
+	height:15px;
+	float:right;
+}
+
+#iwm-message-intro {
+	margin-top:15px;
+	padding:15px;
+	background-color:#FFFFFF;
+	border: 1px solid #DFDFDF;
+	
+}
+
+#iwm-message-intro #shc{
+	font-weight:bold;
+	background-color:#f5f5f5;
+	padding:5px;
+	}
+	
+#visit {
+	padding:10px;
+}
+#custom-action {
+	display:none;
+	padding-bottom:20px;
+	padding:10px; 
+}
+
+#latlondiv {
+	background-color:#FFFFFF;
+	padding:5px;
+	border: 1px solid #DFDFDF;
+	margin:10px 0px;
+}
+
+#iwm_image_map {
+	padding:10px 0px 5px 0px;
+}
+
+circle {
+	cursor:pointer;
+}
+
+
+/* Toolip */
+
+#iwm-wrap-preview li {
+list-style: none !important;
+}
+
+#iwm-wrap-preview text {
+  stroke-width:0;
+  cursor: pointer;
+}
+
+/* Reset for images used in the tooltip */
+
+#iwm-wrap-preview img {
+ border:none;
+ padding: 0;
+ margin: 0;
+ box-shadow: none;
+}
+
+/* This is the main tooltip class. It's the tooltip wrapper div */
+#iwm-wrap-preview .google-visualization-tooltip {
+	margin: 0px;
+	padding: 5px;
+  color:#444;
+  word-wrap: normal;
+  z-index: 9999999999;
+  min-width: 75px;
+  font-family: inherit;
+  margin-right:-50px;
+  margin-bottom:-50px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#iwm-wrap-preview .google-visualization-tooltip ul, 
+#iwm-wrap-preview .google-visualization-tooltip li, 
+#iwm-wrap-preview .google-visualization-tooltip img {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+  font-size: 1em;
+  text-decoration: none;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+
+
+
+/*The content of the tooltip is rendered by the API in an unordered list 
+With 2 li entries, one for the title and other for the actual tooltip info.
+*/
+
+#iwm-wrap-preview .google-visualization-tooltip-item-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#iwm-wrap-preview  ul.google-visualization-tooltip-item-list {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+#iwm-wrap-preview li.google-visualization-tooltip-item {
+	list-style: none;
+	margin:0;
+	padding:0;
+
+}
+
+#iwm-wrap-preview .google-visualization-tooltip-item * {
+	margin:0;
+	padding:0;
+  list-style: none;
+}
+
+/* This rule controls the Title info */
+#iwm-wrap-preview .google-visualization-tooltip-item-list
+#iwm-wrap-preview .google-visualization-tooltip-item:first-child {
+  list-style: none;
+  margin:0;
+	padding:0;
+}
+
+/*widget icon*/
+#available-widgets [class*=iwm] .widget-title:before{content:"\f319"}
